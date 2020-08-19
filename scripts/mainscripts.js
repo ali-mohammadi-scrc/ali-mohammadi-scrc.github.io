@@ -37,7 +37,7 @@ am4core.ready(function() {
 	am4core.useTheme(am4themes_animated);
 	am4core.useTheme(am4themes_SkillRadarChart)
 	// Themes end
-	
+
 	function makeSkillChart(div_id, chartData, skillName, skillCategory, labelColor, gridColor, bulletColor, seriesColor, titleColor){
 		/* Create chart instance */
 		var chart = am4core.create(div_id, am4charts.RadarChart);
@@ -64,13 +64,13 @@ am4core.ready(function() {
 		series.name = skillName;
 		series.stroke = bulletColor;
 		series.fill = seriesColor;
-		
+
 		var bullet = series.bullets.push(new am4charts.CircleBullet());
 		bullet.fill = bulletColor;
-		
-	
+
+
 	}
-	
+
 	PLData = [ {
 	  "language": "Python",
 	  "value": 9
@@ -85,10 +85,10 @@ am4core.ready(function() {
 	  "value": 9
 	}, {
 	  "language": "HTML/CSS",
-	  "value": 7
+	  "value": 8
 	}, {
 	  "language": "Javascript",
-	  "value": 5
+	  "value": 8
 	}, {
 	  "language": "VHDL",
 	  "value": 5
