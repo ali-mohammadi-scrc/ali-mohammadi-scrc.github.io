@@ -1,290 +1,306 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Ali Mohammadi</title>
-		<link rel="icon" type="image/ico" href="images/homepageicon.ico" />	
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="styles/mainstyle.css" rel="stylesheet">
-		
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-		<!-- Google Fonts -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-		<!-- Bootstrap core CSS -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-		<!-- Material Design Bootstrap -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
-	</head>
-  
-	<body>	
-		<header class="container-fluid prev">
-		
-			<nav class="navbar fixed-top navbar-expand navbar-dark scrolling-navbar">
-				<a class="navbar-brand" href="#"><img style="max-height:40px;" src="images/b_icon.ico"></a>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#aboutme">About me <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" href="#resume">Résumé</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://github.com/ali-mohammadi-scrc" target="_blank">Sample Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
+<head>
+	<title>Ali Mohammadi</title>
+	<link rel="icon" type="image/ico" href="images/homepageicon.ico" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="styles/mainstyle.css" rel="stylesheet">
+	<meta name="google-site-verification" content="18dXBQvxZvnmEcMROuNldL9Q62gL8oquzQaGSDL1mBg" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="container-fluid prev">
+		<nav class="navbar fixed-top navbar-expand navbar-dark scrolling-navbar">
+			<a class="navbar-brand" href="#"><img style="max-height:40px;" src="images/b_icon.ico"></a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutme">About me <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#resume">Résumé</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/ali-mohammadi-scrc" target="_blank">Sample
+							Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="row" style="align-items: center; margin: 7vh 5vw">
+			<div class="container-fluid col-4">
+				<img class="img-fluid" id="personalpic" src="images/cvpic.png">
+			</div>
+			<div id="HeadTW" class="col-8" style="color: white;"></div>
+		</div>
+	</header>
+	<section id="aboutme" class="container-fluid">
+		<div id="aboutmeText">
+			<p class="animated fadeIn"> Hi, my name is <strong>ALI MOHAMMADI. </strong>I'm a student, studying M.Sc.
+				Computer Science at the University of Bonn. I'm also a developer and a researcher with an engineering
+				background. I have taken this journey to Germany to follow my dreams.<br>
+				<center class="animated fadeIn"><strong>Please, scroll down for more details.</strong></center>
+			</p>
+		</div>
+	</section>
+	<section class="container-fluid resume" id="resume">
+		<div class="section wow" id="skills">
+			<h2>Skills</h2>
+			<div class="subsection">
+				<div class="row">
+					<div class="col-lg" style="margin: 0;">
+						<h3>Programming</h3>
+						<div id="chartPLdiv" class="chart"></div>
+					</div>
+					<div class="col-lg">
+						<h3>Expertise</h3>
+						<li>Research</li>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%;">
+							</div>
+						</div>
+						<br>
+						<li>Data Science</li>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">
+							</div>
+						</div>
+						<br>
+						<li>Embedded Development</li>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;">
+							</div>
+						</div>
+						<br>
+						<li>Software Development</li>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;">
+							</div>
+						</div>
+						<br>
+						<li>Web Development</li>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%;">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg row">
+						<h3 class="col-12">Languages</h3>
+						<div class="container" style="max-width: 250px;">
+							<li>English: <strong style="float:right">C1</strong></li>
+							<li>Deutsch: <strong style="float:right">A2</strong></li>
+							<li>Persian: <strong style="float:right">Native</strong></li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section wow">
+			<h2>Education</h2>
+			<div class="subsection">
+				<div class="row">
+					<div class="col-md-3 date_place">
+						<h5><strong>2019 - Present</strong></h5>
+						<p>Bonn, Germany</p>
+					</div>
+					<div class="col-9">
+						<h3>Master of Science in Computer Science, Intelligent Systems</h3>
+						<h5>Rheinischen Friedrich-Wilhelms-Universität Bonn</h5>
+						<p><strong>Overall GPA: 1,52</strong> of 6,0</p>
+						<hr align="left">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 date_place">
+						<h5><strong>2014 &nbsp;- &nbsp;2018</strong></h5>
+						<p>Shiraz, Iran</p>
+					</div>
+					<div class="col-9">
+						<h3>Bachelor of Science in Computer Engineering, Hardware</h3>
+						<h5>Shiraz University</h5>
+						<p><strong>Overall GPA: 17,78</strong> of 20,00 (1,6 of 6,0 - DE System)</p>
+						<p>Bachelor Project: <i>“Removal of Artifacts from EEG Signals using Independent Component
+								Analysis”</i></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section wow">
+			<h2>Experience</h2>
+			<div class="subsection">
+				<div class="row">
+					<div class="col-md-3 date_place">
+						<h5><strong>July 2020 - Present</strong></h5>
+						<p>Cologne, Germany</p>
+					</div>
+					<div class="col-9">
+						<h3>Software Engineer</h3>
+						<h5>SIDESTREAM</h5>
+						<hr align="left">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 date_place">
+						<h5><strong>Apr 2018 - Sep 2019</strong></h5>
+						<p>Shiraz, Iran</p>
+					</div>
+					<div class="col-9">
+						<h3>Student Researcher</h3>
+						<h5>Shiraz Neuroscience Research Center</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section wow">
+			<h2>Honors</h2>
+			<div class="subsection">
+				<div>
+					<ul>
+						<li>Graduated as Top-Ranked student (Highest GPA) in B.S.</li>
+						<li><a href="https://icpc.baylor.edu/ICPCID/5JVXHASFXC9O"><strong>7th Team-Rank (Team: AYA?),
+									Asia Regional ACM Programming Contest, 2016</strong></a></li>
+						<li><a href="https://icpc.baylor.edu/ICPCID/5JVXHASFXC9O"><strong>8th Team-Rank (Team: AYA?),
+									Asia Regional ACM Programming Contest, 2015</strong></a></li>
 					</ul>
 				</div>
-			</nav>	
-			
-			<div class="row" style="align-items: center; margin: 7vh 5vw">
-				<div class="container-fluid col-4">
-					<img class="img-fluid" id="personalpic" src= "images/cvpic.png">
-				</div>
-				<div id="HeadTW" class="col-8" style="color: white;"></div>
 			</div>
-		</header>
-		
-		<section id="aboutme" class="container-fluid">
-			<div id="aboutmeText">
-				<p class="animated fadeIn"> Hi, my name is <strong>ALI MOHAMMADI. </strong>I'm a student, studying M.Sc. Computer Science at the University of Bonn. I'm also a developer and a researcher with an engineering background.
-					I have taken this journey to Germany to follow my dreams.<br>				
-					<center class="animated fadeIn"><strong>Please, scroll down for more details.</strong></center>
+		</div>
+		<div class="section wow">
+			<h2>Certificates</h2>
+			<div class="subsection">
+				<div>
+					<ul>
+						<li><a href="https://www.udemy.com/certificate/UC-bc207bcb-538b-47eb-a8b7-55b26440864f/"><strong>The
+									Data Science Course 2020: Complete Data Science Bootcamp</strong></a>, by 365
+							Careers Team on Udemy, April 2020</li>
+						<li><strong>Practical Workshop on Neural Modeling: Mathematical Methods and Computer
+								Implementations</strong>, held by <a href="https://nbml.ir/EN/pages/about">NBML</a>,
+							October, 2018</li>
+						<li><strong>Workshop on "Principles of Research Design and Selection of An Appropriate Research
+								Method in Human Studies"</strong>, held by <a
+								href="https://nbml.ir/EN/pages/about">NBML</a>, October, 2018</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="section wow">
+			<h2>References</h2>
+			<div class="subsection">
+				<h3>Dr. Reza Sameni</h3>
+				<h5><strong>&nbsp;Associate Professor,</strong></h5>
+				<p>&nbsp;&nbsp;&nbsp; School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran</p>
+				<h5><strong>&nbsp;Invited Researcher,</strong></h5>
+				<p>&nbsp;&nbsp;&nbsp; GIPSA-lab, Université Grenoble Alpes, Saint Martin d'Hères, France</p>
+				<p style="text-align:center;">Dr. Sameni was my professor and bachelor internship supervisor at Shiraz
+					University.</p>
+				<hr>
+				<h3>Dr. Sina Salehi</h3>
+				<h5><strong>&nbsp;Assistant Professor,</strong></h5>
+				<p>&nbsp;&nbsp;&nbsp; Neuroscience Research Center, Shiraz University of Medical, Sciences, Shiraz, Iran
 				</p>
+				<h5><strong>&nbsp;Research Scientist,</strong></h5>
+				<p>&nbsp;&nbsp;&nbsp; Center for Neural Science, New York University, New York, USA</p>
+				<p style="text-align:center;">Dr. Salehi was my supervisor and employer at Shiraz Neuroscience Research
+					Center</p>
+				<hr>
+				<h3>Dr. Hooman Tahayori</h3>
+				<h5><strong>&nbsp;Assistant Professor,</strong></h5>
+				<p>&nbsp;&nbsp;&nbsp; School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran</p>
+				<p style="text-align:center;">Dr. Tahayori was my supervisor and professor during my bachelor studies at
+					Shiraz university.</p>
+				<hr>
 			</div>
-		</section>
-		
-		<section class="container-fluid resume" id="resume">
-			
-			<div class="section wow" id="skills">
-				<h2>Skills</h2>
-				<div class="subsection">
-					<div class="row">
-						<div class="col-lg" style="margin: 0;">
-							<h3>Programming</h3>
-							<div id="chartPLdiv" class="chart"></div>
-						</div>
-						<div class="col-lg">
-							<h3>Expertise</h3>
-							<li>Research</li>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%;"></div> 
-							</div>
-							<br>
-							<li>Data Science</li>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;"></div> 
-							</div>
-							<br>
-							<li>Embedded Development</li>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;"></div> 
-							</div>
-							<br>
-							<li>Software Development</li>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;"></div> 
-							</div>
-							<br>
-							<li>Web Development</li>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%;"></div> 
-							</div>
-						</div>
-						<div class="col-lg row">
-							<h3 class="col-12">Languages</h3>
-							<div class="container" style="max-width: 250px;">
-								<li>English: <strong style="float:right">C1</strong></li>
-								<li>Deutsch: <strong style="float:right">A2</strong></li>
-								<li>Persian: <strong style="float:right">Native</strong></li>
-							</div>
-						</div>						
-					</div>
-				</div>
-			</div>			
-			
-			<div class="section wow">
-				<h2>Education</h2>
-				<div class="subsection">
-					<div class="row">
-						<div class="col-md-3 date_place">
-							<h5><strong>2019 - Present</strong></h5>
-							<p>Bonn, Germany</p>
-						</div>
-						<div class="col-9">
-							<h3>Master of Science in Computer Science, Intelligent Systems</h3>
-							<h5>Rheinischen Friedrich-Wilhelms-Universität Bonn</h5>
-							<p><strong>Overall GPA: 1,52</strong> of 6,0</p>
-							<hr align="left">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 date_place">
-							<h5><strong>2014 &nbsp;- &nbsp;2018</strong></h5>
-							<p>Shiraz, Iran</p>
-						</div>
-						<div class="col-9">
-							<h3>Bachelor of Science in Computer Engineering, Hardware</h3>
-							<h5>Shiraz University</h5>
-							<p><strong>Overall GPA: 17,78</strong> of 20,00 (1,6 of 6,0 - DE System)</p>
-							<p>Bachelor Project: <i>“Removal of Artifacts from EEG Signals using Independent Component Analysis”</i></p>
-						</div>
-					</div>
+		</div>
+	</section>
+	<!--section id="gallery" class="container-fluid prev"></section-->
+	<footer id="contact" class="container-fluid row no-gutters">
+		<div class="container-fluid col-md-1 align-self-center" style="min-width: 150px">
+			<div class="container-fluid fasDiv">
+				<div class="fasDiv">
+					<h4 class="fas" style="font-size:30px;">
+						<center><strong>Find Me</strong></center>
+					</h4>
 				</div>
 			</div>
-			
-			<div class="section wow">
-				<h2>Experience</h2>
-				<div class="subsection">
-					<div class="row">
-						<div class="col-md-3 date_place">
-							<h5><strong>July 2020 - Present</strong></h5>
-							<p>Cologne, Germany</p>
-						</div>
-						<div class="col-9">
-							<h3>Software Engineer</h3>
-							<h5>SIDESTREAM</h5>
-							<hr align="left">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 date_place">
-							<h5><strong>Apr 2018 - Sep 2019</strong></h5>
-							<p>Shiraz, Iran</p>
-						</div>
-						<div class="col-9">
-							<h3>Student Researcher</h3>
-							<h5>Shiraz Neuroscience Research Center</h5>
-						</div>
-					</div>
+		</div>
+		<div class="container-fluid col-md">
+			<div class="container-fluid row no-gutters" style="margin-bottom: 25px;">
+				<div class="fasDiv col-lg-4 wow">
+					<a href="https://goo.gl/maps/fFFuvXiPqhULFNxN7" target="_blank">
+						<i class="fas fa-map-marked-alt fa-md"></i>
+						<h5><strong>Bonn, Germany</strong></h5>
+					</a>
+				</div>
+				<div class="fasDiv col-lg-4 wow">
+					<a href="mailto:ali.mohammadi@uni-bonn.de" target="_blank">
+						<i class="fas fa-envelope fa-md"></i>
+						<h5><strong>ali.mohammadi@uni-bonn.de</strong></h5>
+					</a>
+				</div>
+				<div class="fasDiv col-lg-4 wow">
+					<a href="https://github.com/ali-mohammadi-scrc" target="_blank">
+						<i class="fab fa-github fa-md"></i>
+						<h5><strong>github.com/AliMohammadiScRc</strong></h5>
+					</a>
 				</div>
 			</div>
+			<div class="container-fluid row no-gutters">
+				<div class="fasDiv col-lg-4 wow">
+					<a href="tel:+491786861706" target="_blank">
+						<i class="fas fa-mobile-alt fa-md"></i>
+						<h5><strong>+49 178 686 1706</strong></h5>
+					</a>
+				</div>
+				<div class="fasDiv col-lg-4 wow">
+					<a href="skype:live:.cid.2b1429240e17741a?userinfo" target="_blank">
+						<i class="fab fa-skype fa-md fa-5x"></i>
+						<h5><strong>live:.cid.2b1429240e17741a</strong></h5>
+					</a>
+				</div>
+				<div class="fasDiv col-lg-4 wow">
+					<a href="https://www.linkedin.com/in/ali-mohammadi-scrc" target="_blank">
+						<i class="fab fa-linkedin fa-md fa-5x"></i>
+						<h5><strong>linkedin.com/in/ali-mohammadi-scrc</strong></h5>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
 
-			<div class="section wow">
-				<h2>Honors</h2>
-				<div class="subsection">
-					<div>
-						<ul>
-							<li>Graduated as Top-Ranked student (Highest GPA) in B.S.</li>
-							<li><a href="https://icpc.baylor.edu/ICPCID/5JVXHASFXC9O"><strong>7th Team-Rank (Team: AYA?), Asia Regional ACM Programming Contest, 2016</strong></a></li>
-							<li><a href="https://icpc.baylor.edu/ICPCID/5JVXHASFXC9O"><strong>8th Team-Rank (Team: AYA?), Asia Regional ACM Programming Contest, 2015</strong></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			
-			<div class="section wow">
-				<h2>Certificates</h2>
-				<div class="subsection">
-					<div>
-						<ul>
-							<li><a href="https://www.udemy.com/certificate/UC-bc207bcb-538b-47eb-a8b7-55b26440864f/"><strong>The Data Science Course 2020: Complete Data Science Bootcamp</strong></a>, by 365 Careers Team on Udemy, April 2020</li>
-							<li><strong>Practical Workshop on Neural Modeling: Mathematical Methods and Computer Implementations</strong>, held by <a href="https://nbml.ir/EN/pages/about">NBML</a>, October, 2018</li>
-							<li><strong>Workshop on "Principles of Research Design and Selection of An Appropriate Research Method in Human Studies"</strong>, held by <a href="https://nbml.ir/EN/pages/about">NBML</a>, October, 2018</li>
-						</ul>
-					</div>
-				</div>
-			</div>			
-			
-			<div class="section wow">
-				<h2>References</h2>
-				<div class="subsection">
-					<h3>Dr. Reza Sameni</h3>
-					<h5><strong>&nbsp;Associate Professor,</strong></h5>
-					<p>&nbsp;&nbsp;&nbsp; School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran</p>
-					<h5><strong>&nbsp;Invited Researcher,</strong></h5>
-					<p>&nbsp;&nbsp;&nbsp; GIPSA-lab, Université Grenoble Alpes, Saint Martin d'Hères, France</p>
-					<p  style="text-align:center;">Dr. Sameni was my professor and bachelor internship supervisor at Shiraz University.</p>
-					<hr>
-					<h3>Dr. Sina Salehi</h3>
-					<h5><strong>&nbsp;Assistant Professor,</strong></h5>
-					<p>&nbsp;&nbsp;&nbsp; Neuroscience Research Center, Shiraz University of Medical, Sciences, Shiraz, Iran</p>
-					<h5><strong>&nbsp;Research Scientist,</strong></h5>
-					<p>&nbsp;&nbsp;&nbsp; Center for Neural Science, New York University, New York, USA</p>
-					<p  style="text-align:center;">Dr. Salehi was my supervisor and employer at Shiraz Neuroscience Research Center</p>
-					<hr>
-					<h3>Dr. Hooman Tahayori</h3>
-					<h5><strong>&nbsp;Assistant Professor,</strong></h5>
-					<p>&nbsp;&nbsp;&nbsp; School of Electrical and Computer Engineering, Shiraz University, Shiraz, Iran</p>
-					<p  style="text-align:center;">Dr. Tahayori was my supervisor and professor during my bachelor studies at Shiraz university.</p>
-					<hr>
-				</div>
-			</div>
-			
-		</section>
-		
-		<!--section id="gallery" class="container-fluid prev"></section-->
-		
-		<footer id="contact" class="container-fluid row no-gutters">
-			<div class="container-fluid col-md-1 align-self-center" style="min-width: 150px">
-				<div class="container-fluid fasDiv">
-					<div class="fasDiv">
-						<h4 class="fas" style="font-size:30px;"><center><strong>Find Me</strong></center></h4>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid col-md">
-				<div class="container-fluid row no-gutters" style="margin-bottom: 25px;">
-					<div class="fasDiv col-lg-4 wow">
-						<a href="https://goo.gl/maps/fFFuvXiPqhULFNxN7" target="_blank">
-							<i class="fas fa-map-marked-alt fa-md"></i>
-							<h5><strong>Bonn, Germany</strong></h5>
-						</a>
-					</div>
-					<div class="fasDiv col-lg-4 wow">
-						<a href="mailto:ali.mohammadi@uni-bonn.de" target="_blank">
-							<i class="fas fa-envelope fa-md"></i>
-							<h5><strong>ali.mohammadi@uni-bonn.de</strong></h5>
-						</a>
-					</div>
-					<div class="fasDiv col-lg-4 wow">
-						<a href="https://github.com/ali-mohammadi-scrc" target="_blank">
-							<i class="fab fa-github fa-md"></i>
-							<h5><strong>github.com/AliMohammadiScRc</strong></h5>
-						</a>
-					</div>
-				</div>
-				<div class="container-fluid row no-gutters">
-					<div class="fasDiv col-lg-4 wow">
-						<a href="tel:+491786861706" target="_blank">
-							<i class="fas fa-mobile-alt fa-md"></i>
-							<h5><strong>+49 178 686 1706</strong></h5>
-						</a>
-					</div>
-					<div class="fasDiv col-lg-4 wow">
-						<a href="skype:live:.cid.2b1429240e17741a?userinfo" target="_blank">
-							<i class="fab fa-skype fa-md fa-5x"></i>
-							<h5><strong>live:.cid.2b1429240e17741a</strong></h5>
-						</a>
-					</div>
-					<div class="fasDiv col-lg-4 wow">
-						<a href="https://www.linkedin.com/in/ali-mohammadi-scrc" target="_blank">
-							<i class="fab fa-linkedin fa-md fa-5x"></i>
-							<h5><strong>linkedin.com/in/ali-mohammadi-scrc</strong></h5>
-						</a>
-					</div>
-				</div>
-			</div>			
-		</footer>
-
-	</body>
-</html> 
-
-<!-- Bootstrap Scripts -->	
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
 <!-- amcharts Scripts -->
